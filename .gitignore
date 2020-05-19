@@ -21,5 +21,5 @@ nbdist/
 .nb-gradle/
 
 ### Additional ###
-access.properties
+s3-access.properties
 target

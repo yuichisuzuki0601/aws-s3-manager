@@ -37,7 +37,7 @@ public class Main {
 			return;
 		}
 		Properties properties = new Properties();
-		try (InputStream is = new FileInputStream("access.properties")) {
+		try (InputStream is = new FileInputStream("s3-access.properties")) {
 			properties.load(is);
 		}
 
