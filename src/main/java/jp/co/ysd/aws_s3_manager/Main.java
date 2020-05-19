@@ -28,7 +28,7 @@ public class Main {
 			return;
 		}
 
-		System.out.println(command + "start!");
+		System.out.println(command + " start!");
 
 		AccessInfo accessInfo = new AccessInfo();
 		String bucketName = accessInfo.getBucketName();
